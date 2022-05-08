@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BP Menetrendek</string>
+    <string name="name">Email</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="user_name">Felhasználónév</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Cím</string>
+    <string name="account_type">Fiók típusa</string>
+    <string name="customer">Vásárló</string>
+    <string name="seller">Eladó</string>
+    <string name="product_description">Termék leírása.</string>
+    <string-array name="phone_labels">
+        <item>Otthon</item>
+        <item>Munkahely</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Járatszám</string>
+    <string name="item_info_placeholder">Megállók</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor diam fringilla tellus, eu euismod mauris neque at neque.</string>
+
+    <string-array name="shopping_item_jaratszam">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="shopping_item_megallok">
+        <item>Blaha -> Blaha -> Blaha -> Blaha -> Blaha -> Blaha -> Blaha</item>
+        <item>Blaha2 -> Blaha2 -> Blaha2 -> Blaha2 -> Blaha2 -> Blaha2 -> Blaha2 -> Blaha2</item>
+        <item>Blaha3</item>
+        <item>Blaha4</item>
+        <item>Blaha5</item>
+        <item>Blaha6</item>
+        <item>Blaha7</item>
+        <item>Blaha8</item>
+        <item>Blaha9</item>
+        <item>Blaha10</item>
+    </string-array>
+
+
+    <array name="shopping_item_indulasok">
+        <item>6:10 - 7:10 - 6:10 - 7:10 - 6:10 - 7:10 - 6:10 - 7:10 - 6:10 - 7:10 -</item>
+        <item>7:10</item>
+        <item>8:10</item>
+        <item>9:10</item>
+        <item>10:10</item>
+        <item>11:10</item>
+        <item>12:10</item>
+        <item>13:10</item>
+        <item>14:10</item>
+        <item>15:10</item>
+    </array>
+</resources>
+

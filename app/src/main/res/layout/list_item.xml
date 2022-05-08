@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <TextView
+            android:id="@+id/jaratheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Járatszám:"
+            android:textColor="@color/kek"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jaratszam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:text="@string/item_placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/indulasokheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jaratszam"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/kek"
+            android:padding="8dp"
+            android:text="Indul:"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/megallok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indulasokheader"
+            android:layout_marginTop="-13dp"
+            android:padding="8dp"
+            android:text="@string/item_info_placeholder" />
+
+        <TextView
+            android:id="@+id/megallokheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/megallok"
+            android:textColor="@color/kek"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:text="Megállók:"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/indulasok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/megallokheader"
+            android:layout_marginTop="-13dp"
+            android:padding="8dp"
+            android:text="@string/item_info_placeholder" />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/indulasok"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="250dp"
+            android:text="Törlés" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
